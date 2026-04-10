@@ -1,0 +1,14 @@
+/.venv
+/Brazilian_E_Commerce_DB
+.env
+.vscode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.DS_Store
+.idea
+/data
