@@ -17,7 +17,8 @@
 
 ### Tech Stack (evolves as you progress)
 
-- **Junior**: SQL, Python, CSV/JSON, PostgreSQL, basic Airflow, intro to dbt
+- **Beginner**: SQL, Python, CSV/JSON, pandas, PostgreSQL basics
+- **Junior**: SQL, Python, PostgreSQL, repeatable pipelines, intro Airflow, intro dbt
 - **Mid-Level**: Spark, Snowflake/BigQuery, Airflow (advanced), dbt (advanced), data quality frameworks
 - **Senior**: Kafka, Flink, system design, cost optimization, observability, architecture
 
@@ -25,21 +26,30 @@
 
 ## 📁 Curriculum Structure
 
-| Level | Tasks | Files |
+Each level now has its own folder with a consistent study layout:
+
+- `roadmap.md`: what to learn, how long it should take, and when to move on
+- `how_to_work.md`: how to do homework and what you must explain after each task
+- `checkpoint_test.md`: mid-level check before continuing
+- `final_test.md`: end-of-level mastery test
+
+| Level | Folder | Task Source |
 |---|---|---|
-| Junior | 1–100 | `junior/tasks_001_020.md` through `junior/tasks_081_100.md` |
-| Mid-Level | 1–100 | `mid/tasks_001_020.md` through `mid/tasks_081_100.md` |
-| Senior | 1–100 | `senior/tasks_001_020.md` through `senior/tasks_081_100.md` |
+| Beginner | `beginner/` | Uses Junior Tasks 1–5 as foundation work |
+| Junior | `junior/` | `junior/tasks_001_020.md` through `junior/tasks_081_100.md` |
+| Mid | `mid/` | `mid/tasks_101_120.md` through `mid/tasks_196_200.md` |
+| Senior | `senior/` | `senior/tasks_201_205.md` through `senior/tasks_256_260.md` |
 
 ---
 
 ## 🚀 How to Use
 
-1. Work through tasks **sequentially** — later tasks depend on earlier work
-2. Treat each task like a **real engineering ticket** assigned to you
-3. Build actual code, pipelines, and queries — don't just read
-4. When you finish 20 tasks, say **"next"** to unlock the next batch
-5. Your systems will evolve — earlier decisions carry forward
+1. Start in `beginner/` and follow the level roadmap before jumping to higher folders.
+2. Work through tasks sequentially inside the mapped level.
+3. After each task, use the level's `how_to_work.md` file to explain what you built and why.
+4. Take the `checkpoint_test.md` before moving into the second half of a level.
+5. Take the `final_test.md` before moving to the next level.
+6. If you fall behind, extend the schedule instead of compressing the learning.
 
 ---
 
